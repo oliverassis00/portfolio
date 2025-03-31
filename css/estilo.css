@@ -40,7 +40,7 @@ body {
 }
 
 #home-menu {
-    margin-left: 212px;
+    margin-left: 202px;
 }
 
 .botao-conectar {
@@ -52,7 +52,7 @@ body {
     width: 225px;
     padding: 19px 18px;
     font-size: 18px;
-    margin: 0px 99px 0px -99px;
+    margin: 0px 99px 0px 50px;
     border: none;
     cursor: pointer;
 }
@@ -225,6 +225,43 @@ body {
     text-align: justify;
     color: #03045E;
     font-size: 18px;
-    margin: 42px 40px 46px 40px;
+    margin: 36px 40px 46px 40px;
     line-height: 150%;
+}
+
+/* Estilização do Contato */
+
+#titulo-contato {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+    color: #FFFFFF;
+}
+
+#subtitulo-contato {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 21px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+    color: #FFFFFF;
+    width: 964px;
+    background-color: red;
+}
+
+.div1, .div2{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 964px;
+}
+
+.div1 input {
+    width: 100%;
 }

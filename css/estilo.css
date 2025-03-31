@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Cabeçalho Estilização */
 .logotipo-marca {
     margin-left: 99px;
     font-weight: bold;
@@ -16,7 +17,7 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 43px;
 }
@@ -34,12 +35,12 @@ body {
     color: #FFFFFF;
 }
 
-.itens-menu .itens-menu-ul {
+.itens-menu-ul {
     margin-left: 52px;
 }
 
 #home-menu {
-    margin-left: 213px;
+    margin-left: 212px;
 }
 
 .botao-conectar {
@@ -47,9 +48,183 @@ body {
     background-color: #48CAE4;
     border-radius: 10px;
     color: #03045E;
+    height: 65px;
+    width: 225px;
     padding: 19px 18px;
     font-size: 18px;
-    margin: 0px 99px 0px 50px;
+    margin: 0px 99px 0px -99px;
     border: none;
     cursor: pointer;
+}
+
+
+/* Estilização indes */
+
+.home-inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 156px 99px 0px 99px;
+}
+
+#ola-oliver {
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-style: italic;
+    line-height: 120%;
+    opacity: 0.5;
+    margin-bottom: 7px;
+}
+
+
+#oliver-assis {
+    color: #FFFFFF;
+    font-size: 27px;
+}
+
+#desenvolvedor-web {
+    color: #48CAE4;
+    font-weight: bold;
+    margin: 19px 0px 26px;
+    font-size: 48px;
+}
+
+#oliver-transformando-ideias {
+    color: #FFFFFF;
+    font-size: 27px;
+    margin-bottom: 46px;
+}
+
+.btn-conectar {
+    color: #03045E;
+    padding: 19px 18px;
+    width: 225px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #48CAE4;
+    border: none;
+    margin-right: 46px;
+    cursor: pointer;
+}
+
+.btn-curriculo {
+    color: #000000;
+    padding: 19px 20px;
+    width: 225px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilização de portfolio */
+
+#titulo-portfolio {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 153px;
+    color: #FFFFFF;
+}
+
+#subtitulo-portfolio {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 21px;
+}
+
+.port-container {
+    margin: 80px 99px 50px 99px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.port-filhos {
+    height: 601px;
+    width: 350px;
+    background-color: #48CAE4;
+    border-radius: 10px;
+}
+
+.imagem-desenvolvimento-containers {
+    width: 300px;
+    height: 283px;
+    margin: 12px 25px 0px 25px;
+}
+
+.titulo-containers {
+    text-align: center;
+    font-size: 27px;
+    color: #03045E;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.texto-dev {
+    font-size: 18px;
+    color: #03045E;
+    text-align: justify;
+    margin: 23px 25px 25px 25px;
+}
+
+/* Estilizacao do Sobre mim */
+
+#titulo-sobre-mim {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+    color: #FFFFFF;
+}
+
+#subtitulo-sobre-mim {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 21px;
+}
+
+.container-sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    width: 990px;
+    height: 570px;
+}
+
+.imagem-sobre-oliver {
+    width: 301px;
+    height: 301px ;
+}
+
+.filho-sobre-mim {
+    background-color: #48CAE4;
+    margin-left: 141px;
+    width: 548px;
+    height: 570px;
+    border-radius: 10px;
+}
+
+.titulo-sobre-oliver {
+    margin-top: 38px;
+    color: #03045E;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto-sobre-oliver {
+    text-align: justify;
+    color: #03045E;
+    font-size: 18px;
+    margin: 42px 40px 46px 40px;
+    line-height: 150%;
 }
